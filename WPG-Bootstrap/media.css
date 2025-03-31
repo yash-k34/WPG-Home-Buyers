@@ -1,0 +1,195 @@
+@media screen and (max-width: 1400px) {
+  .input_field {
+    gap: 10px 0px;
+  }
+
+  .form-btn {
+    width: 90%;
+  }
+
+  .line1::after {
+    left: calc(100% - 875px);
+  }
+
+  .line2::after {
+    left: calc(100% - 500px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .form-btn {
+    padding: 34px 10px 34px 10px;
+    width: 100%;
+  }
+
+  .line1::after, .line2::after {
+    width: 100px;
+  }
+
+  .line1::after {
+    left: calc(100% - 715px);
+  }
+
+  .line2::after {
+    left: calc(100% - 375px);
+  }
+
+  .process-grid {
+    gap: 80px;
+  }
+
+  /* realtors */
+  .box1, .box2 {
+    height: 650px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .home, .process,.buyers,.situation,.realtors, .about, .call, .faq {
+    padding: 60px 8px 60px 8px;
+  }
+
+  .navbar-nav {
+    padding-left: 10px !important;
+  }
+
+  nav .button {
+    margin-bottom: 20px;
+  }
+
+  /* home */
+  .form-btn {
+    padding: 9px 10px 9px 10px;
+  }
+
+  /* process */
+  .process br, .line1::after, .line2::after {
+    display: none;
+  }
+
+  .process-grid {
+    gap: 0px;
+  }
+
+  /* buyers */
+  .steps {
+    gap: 20px;
+  }
+
+  .buyers-grid {
+    gap: 10px;
+  }
+
+  /* realtors */
+  .box {
+    gap: 20px;
+  }
+
+  .box1,
+  .box2 {
+    height: 100%;
+  }
+
+  /* benefits */
+  .bene-box {
+    width: 100%;
+  }
+
+  .form2 {
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .home, .process,.buyers,.situation,.realtors, .about, .call, .faq {
+    padding: 50px 8px 50px 8px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 29px;
+  }
+
+  nav img, .process .img, .buyers .image img, .about img {
+    width: 100px;
+  }
+
+  .buyers-grid, .situations, .bene-box {
+    gap: 0px;
+  }
+
+  /* home */
+  .home {
+    margin-top: 80px;
+  }
+
+  h1 {
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .home p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .form1, .needs-validation {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .filed, .btn-filed, .button {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* process */
+  .process h3 {
+    width: 140px;
+    padding: 5px 0px 5px 0px !important;
+  }
+
+  .process h3 img {
+    width: 25px;
+  }
+
+  /* buyers */
+  .buyers h3 {
+    font-size: 16px;
+    line-height: 29px;
+  }
+
+  .steps {
+    gap: 10px;
+  }
+
+  /* situation */
+  .situations h3 {
+    font-size: 26px;
+    line-height: 29px;
+  }
+
+  /* realtors */
+  .realtors p img {
+    width: 25px;
+  }
+
+  .box p {
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  /* benefit */
+  .accordion-button {
+    font-size: 18px;
+  }
+
+  /* call */
+  .call h3 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
